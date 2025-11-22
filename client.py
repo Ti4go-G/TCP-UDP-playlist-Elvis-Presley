@@ -2,7 +2,7 @@ import socket
 import json
 
 # ---------------------------------------
-#   DOWNLOAD VIA TCP (CORRIGIDO)
+#   DOWNLOAD VIA TCP
 # ---------------------------------------
 def download_tcp(host, port, filename):
     print(f"\n[CLIENTE] Conectando via TCP em {host}:{port}...")
